@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primrose Sibanda - Web Developer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img src="#" alt="Logo" style="width: 30px; height: 30px; margin-right: 10px;">
+    Primar
+  </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+    <main>
+        <section id="home">
+  <div class="jumbotron">
+    <h1 class="display-4">Hello, I'm Primrose Sibanda!</h1>
+    <p class="lead">Web Developer | Passionate about building innovative web applications</p>
+    <hr class="my-4">
+    <p>Scroll down to learn more about me and my work.</p>
+   <div class="d-flex justify-content-center">
+  <a class="btn learn-more-btn btn-lg" href="#about" role="button">Learn More</a>
+  <div class="spacer"></div>
+  <a class="btn download-cv-btn btn-lg" href="cv.pdf" download="Primrose_Sibanda_CV">Download CV</a>
+</div>
+  </div>
+</section>
+       <section id="about">
+  <div class="container">
+    <h2 class="about-me">About Me</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="profile-picture.jpg" alt="Profile Picture" class="profile-picture">
+      </div>
+      <div class="col-md-8">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        <h3 class="tech-skills">Technical Skills</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Front-end Development</h4>
+            <ul class="skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Back-end Development</h4>
+            <ul class="skills">
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        <section id="projects">
+  <div class="container">
+    <h2 class="header-projects">My Projects</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="project-card">
+          <img src="project1.jpg" alt="Project 1" class="project-image">
+          <div class="project-info">
+            <h5 class="project-title">Project 1</h5>
+            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-primary project-button">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project-card">
+          <img src="project2.jpg" alt="Project 2" class="project-image">
+          <div class="project-info">
+            <h5 class="project-title">Project 2</h5>
+            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-primary project-button">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project-card">
+          <img src="project3.jpg" alt="Project 3" class="project-image">
+          <div class="project-info">
+            <h5 class="project-title">Project 3</h5>
+            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-primary project-button">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        <section id="contact">
+  <div class="container">
+    <h2>Get in Touch</h2>
+    <form id="contact-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2023 Primrose Sibanda. All rights reserved.</p>
+        <ul class="social-media">
+            <li><a href="#" target="_blank"><i class="fab fa-linkedin">Linked in</i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-github"></i>Github</a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-twitter">Twitter</i></a></li>
+        </ul>
+    </div>
+</footer>
+
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function () {
+    emailjs.init({
+      publicKey: 'qIE3AetIeZgUZ4TkU',
+    });
+  })();
+</script>
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
